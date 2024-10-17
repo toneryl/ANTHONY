@@ -10250,3 +10250,4 @@ Already up to date.
 [INFO 2024-10-17_20:19:56] TML Solution Studio: git commit -a Status for project BLESSINGPROJECT-381a: fatal: paths 'project ...' with -a does not make sense
 [INFO 2024-10-17_20:19:57] TML Solution Studio: git push Status for project BLESSINGPROJECT-381a: Everything up-to-date
 [INFO 2024-10-17_20:26:40] Deleting topic iot-raw-data in tml_system_step_2_kafka_createtopic_dag-BLESSINGPROJECT-381a.py
+[INFO 2024-10-17_20:26:46] Deleting topic iot-preprocess in tml_system_step_2_kafka_createtopic_dag-BLESSINGPROJECT-381a.py
