@@ -10253,3 +10253,4 @@ Already up to date.
 [INFO 2024-10-17_20:26:46] Deleting topic iot-preprocess in tml_system_step_2_kafka_createtopic_dag-BLESSINGPROJECT-381a.py
 [INFO 2024-10-17_20:26:53] Deleting topic iot-preprocess2 in tml_system_step_2_kafka_createtopic_dag-BLESSINGPROJECT-381a.py
 [INFO 2024-10-17_20:27:01] Deleting topic ml-data in tml_system_step_2_kafka_createtopic_dag-BLESSINGPROJECT-381a.py
+[INFO 2024-10-17_20:27:08] Deleting topic prediction-data in tml_system_step_2_kafka_createtopic_dag-BLESSINGPROJECT-381a.py
