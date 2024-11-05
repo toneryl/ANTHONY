@@ -10316,6 +10316,7 @@ branch.main.remote=origin
 branch.main.merge=refs/heads/main
 [INFO 2024-11-05_17:46:29] TML Solution Studio: Github Remote Status: origin	https://github.com/toneryl/ANTHONY (fetch)
 origin	https://<personal access token hidden>@github.com/toneryl/ANTHONY.git (push)
+<<<<<<< Updated upstream
 [INFO 2024-11-05_17:49:31] TML Solution Studio: TML Project Creation: Creating new TML project: /ANTHONY/tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a
 [INFO 2024-11-05_17:49:32] TML Solution Studio: git pull --rebase --autostash origin main Status: From https://github.com/toneryl/ANTHONY
  * branch            main       -> FETCH_HEAD
@@ -10326,3 +10327,100 @@ Already up to date.
 [INFO 2024-11-05_17:50:10] TML Solution Studio: git add . Status: 
 [INFO 2024-11-05_17:50:10] TML Solution Studio: git commit -a Status for project NOWHINEMEAGAINOH-381a: fatal: paths 'project ...' with -a does not make sense
 [INFO 2024-11-05_17:50:11] TML Solution Studio: git push Status for project NOWHINEMEAGAINOH-381a: Everything up-to-date
+=======
+[INFO 2024-11-05_17:51:30] TML Solution Studio: TML Project Creation: Creating new TML project: /ANTHONY/tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a
+>>>>>>> Stashed changes
+[INFO 2024-11-05_17:51:31] TML Solution Studio: git pull --rebase --autostash origin main Status: From https://github.com/toneryl/ANTHONY
+ * branch            main       -> FETCH_HEAD
+   433c9c9..4eeb5a5  main       -> origin/main
+Updating 433c9c9..4eeb5a5
+Created autostash: 265fd35
+Fast-forward
+ smaurice1013f10                                    |   2 +-
+ .../docker_run_stop-NOWHINEMEAGAINOH-381a.py       | 108 ++++
+ ...late_processing_ai_dag-NOWHINEMEAGAINOH-381a.py | 100 ++++
+ ...processing_ai_dag_grpc-NOWHINEMEAGAINOH-381a.py | 100 ++++
+ ...processing_ai_dag_mqtt-NOWHINEMEAGAINOH-381a.py |  99 +++
+ ...cessing_ai_dag_restapi-NOWHINEMEAGAINOH-381a.py |  99 +++
+ ...emplate_processing_dag-NOWHINEMEAGAINOH-381a.py |  93 +++
+ ...te_processing_dag_grpc-NOWHINEMEAGAINOH-381a.py |  93 +++
+ ...te_processing_dag_mqtt-NOWHINEMEAGAINOH-381a.py |  93 +++
+ ...processing_dag_restapi-NOWHINEMEAGAINOH-381a.py |  93 +++
+ ...e_processing_ml_ai_dag-NOWHINEMEAGAINOH-381a.py | 112 ++++
+ ...cessing_ml_ai_dag_grpc-NOWHINEMEAGAINOH-381a.py | 112 ++++
+ ...cessing_ml_ai_dag_mqtt-NOWHINEMEAGAINOH-381a.py | 112 ++++
+ ...sing_ml_ai_dag_restapi-NOWHINEMEAGAINOH-381a.py | 112 ++++
+ ...late_processing_ml_dag-NOWHINEMEAGAINOH-381a.py | 105 ++++
+ ...processing_ml_dag_grpc-NOWHINEMEAGAINOH-381a.py | 107 ++++
+ ...processing_ml_dag_mqtt-NOWHINEMEAGAINOH-381a.py | 107 ++++
+ ...cessing_ml_dag_restapi-NOWHINEMEAGAINOH-381a.py | 107 ++++
+ .../tml_client_MQTT_step_3_kafka_producetotopic.py |  80 +++
+ ...l_client_RESTAPI_step_3_kafka_producetotopic.py |  72 +++
+ .../tml_client_gRPC_step_3_kafka_producetotopic.py |  79 +++
+ .../NOWHINEMEAGAINOH-381a/tml_grpc.proto           |  20 +
+ .../NOWHINEMEAGAINOH-381a/tml_grpc_pb2.py          |  30 +
+ .../NOWHINEMEAGAINOH-381a/tml_grpc_pb2_grpc.py     | 105 ++++
+ ...fka_producetotopic_dag-NOWHINEMEAGAINOH-381a.py | 166 +++++
+ ...fka_producetotopic_dag-NOWHINEMEAGAINOH-381a.py | 208 +++++++
+ ...fka_producetotopic_dag-NOWHINEMEAGAINOH-381a.py | 192 ++++++
+ ...fka_producetotopic_dag-NOWHINEMEAGAINOH-381a.py | 179 ++++++
+ ...p_10_documentation_dag-NOWHINEMEAGAINOH-381a.py | 665 +++++++++++++++++++++
+ ...m_step_1_getparams_dag-NOWHINEMEAGAINOH-381a.py | 418 +++++++++++++
+ ..._kafka_createtopic_dag-NOWHINEMEAGAINOH-381a.py | 151 +++++
+ ...4_kafka_preprocess_dag-NOWHINEMEAGAINOH-381a.py | 214 +++++++
+ ...b_kafka_preprocess_dag-NOWHINEMEAGAINOH-381a.py | 206 +++++++
+ ...a_machine_learning_dag-NOWHINEMEAGAINOH-381a.py | 235 ++++++++
+ ..._kafka_predictions_dag-NOWHINEMEAGAINOH-381a.py | 213 +++++++
+ ...afka_visualization_dag-NOWHINEMEAGAINOH-381a.py | 104 ++++
+ ...solution_to_docker_dag-NOWHINEMEAGAINOH-381a.py |  98 +++
+ ..._privategpt_qdrant_dag-NOWHINEMEAGAINOH-381a.py | 372 ++++++++++++
+ .../NOWHINEMEAGAINOH-381a/tsslogging.py            | 128 ++++
+ tml-airflow/logs/logs.txt                          |  10 +
+ 40 files changed, 5698 insertions(+), 1 deletion(-)
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/docker_run_stop-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_ai_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_ai_dag_grpc-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_ai_dag_mqtt-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_ai_dag_restapi-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_dag_grpc-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_dag_mqtt-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_dag_restapi-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_ml_ai_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_ml_ai_dag_grpc-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_ml_ai_dag_mqtt-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_ml_ai_dag_restapi-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_ml_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_ml_dag_grpc-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_ml_dag_mqtt-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/solution_template_processing_ml_dag_restapi-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_client_MQTT_step_3_kafka_producetotopic.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_client_RESTAPI_step_3_kafka_producetotopic.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_client_gRPC_step_3_kafka_producetotopic.py
+ create mode 100755 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_grpc.proto
+ create mode 100755 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_grpc_pb2.py
+ create mode 100755 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_grpc_pb2_grpc.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_read_LOCALFILE_step_3_kafka_producetotopic_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_read_MQTT_step_3_kafka_producetotopic_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_read_RESTAPI_step_3_kafka_producetotopic_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_read_gRPC_step_3_kafka_producetotopic_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_system_step_10_documentation_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_system_step_1_getparams_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_system_step_2_kafka_createtopic_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_system_step_4_kafka_preprocess_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_system_step_4b_kafka_preprocess_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_system_step_5_kafka_machine_learning_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_system_step_6_kafka_predictions_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_system_step_7_kafka_visualization_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_system_step_8_deploy_solution_to_docker_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tml_system_step_9_privategpt_qdrant_dag-NOWHINEMEAGAINOH-381a.py
+ create mode 100644 tml-airflow/dags/tml-solutions/NOWHINEMEAGAINOH-381a/tsslogging.py
+Applying autostash resulted in conflicts.
+Your changes are safe in the stash.
+You can run "git stash pop" or "git stash drop" at any time.
+[INFO 2024-11-05_17:52:08] TML Solution Studio: Starting Git commit process for project: NOWHINEMEAGAINOH-381a
+[INFO 2024-11-05_17:52:08] TML Solution Studio: git commit -a Status for project NOWHINEMEAGAINOH-381a: fatal: paths 'project ...' with -a does not make sense
+[INFO 2024-11-05_17:52:08] TML Solution Studio: git push origin main Status: Everything up-to-date
+[INFO 2024-11-05_17:52:08] TML Solution Studio: git add . Status: 
+[INFO 2024-11-05_17:52:08] TML Solution Studio: git commit -a Status for project NOWHINEMEAGAINOH-381a: fatal: paths 'project ...' with -a does not make sense
+[INFO 2024-11-05_17:52:09] TML Solution Studio: git push Status for project NOWHINEMEAGAINOH-381a: Everything up-to-date
