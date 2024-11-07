@@ -28,9 +28,9 @@ default_args = {
   'enabletls': '1',
   'microserviceid' : '',
   'producerid' : 'iotsolution',  
-  'topics' : 'iot-raw-data', # *************** This is one of the topic you created in SYSTEM STEP 2
+  'topics' : 'cisco-network-mainstream', # *************** This is one of the topic you created in SYSTEM STEP 2
   'identifier' : 'TML solution',  
-  'mqtt_broker' : '', # <<<****** Enter MQTT broker i.e. test.mosquitto.org
+  'mqtt_broker' : '1b9f19211f844f04ba047bd98e206348.s1.eu.hivemq.cloud', # <<<****** Enter MQTT broker i.e. test.mosquitto.org
   'mqtt_port' : '', # <<<******** Enter MQTT port i.e. 1883, 8883    (for HiveMQ cluster)
   'mqtt_subscribe_topic' : '', # <<<******** enter name of MQTT to subscribe to i.e. tml/iot  
   'mqtt_enabletls': '0', # set 1=TLS, 0=no TLSS  
