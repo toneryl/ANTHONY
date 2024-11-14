@@ -10556,3 +10556,20 @@ Already up to date.
 [INFO 2024-11-11_17:06:22] TML Solution Studio: git add . Status: 
 [INFO 2024-11-11_17:06:22] TML Solution Studio: git commit -a Status for project wegoagain-381a: fatal: paths 'project ...' with -a does not make sense
 [INFO 2024-11-11_17:06:23] TML Solution Studio: git push Status for project wegoagain-381a: Everything up-to-date
+[INFO 2024-11-14_17:06:40] TML Solution Studio Started: DOCKERUSERNAME=toneryl, GITUSERNAME=toneryl, GITREPOURL=https://github.com/toneryl/ANTHONY, AIRFLOWPORT=9000
+[INFO 2024-11-14_17:06:45] TML Solution Studio: Docker Login Status: WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[INFO 2024-11-14_17:06:45] TML Solution Studio: Github Config Status: core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/toneryl/ANTHONY
+remote.origin.fetch=+refs/heads/main:refs/remotes/origin/main
+remote.origin.pushurl=https://<personal access token hidden>@github.com/toneryl/ANTHONY.git
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+[INFO 2024-11-14_17:06:45] TML Solution Studio: Github Remote Status: origin	https://github.com/toneryl/ANTHONY (fetch)
+origin	https://<personal access token hidden>@github.com/toneryl/ANTHONY.git (push)
